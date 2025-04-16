@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wdth,wght@0,75..100,100..700;1,75..100,100..700&display=swap');
+
+/* header css strat */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 100%;
+    background-color:#881337;
+}
+.header_logo h2{
+    color: #ffffff;
+}
+body{
+    font-family: "IBM Plex Sans", serif;
+    line-height: 1.5;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0 0 15px;
+}
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header_menu ul{
+    display: flex;
+    list-style: none;
+}
+.header_menu ul a{
+    margin: 10px 15px;
+    padding: 7px 5px;
+}
+a:hover{
+    background-color: aqua;
+    color: rgb(1, 1, 85);
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.btn{
+    border: 1px solid #ffffff;
+border-radius: 4px;
+padding: 4px 3px 4px 3px;
+align-items: center;
+}
+/* header css closed */
+
+/* section-2  cta_aera strat */
+.container_1{
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.cta-area{
+    position: relative;
+    z-index: 1;
+}
+.cta-area::after{
+    right: 0;
+    top: 10%;
+    height: 80%;
+    width: 50%;
+    background:#f4f4f9 ;
+    content: "";
+    position: absolute;
+    z-index: -1;
+}
+.cta-area-inner{
+    display: flex;
+    align-items: center;
+}
+.cta-text{
+    width: 40%;
+margin-right: 50px;
+}
+.cta-text p{
+    margin-bottom: 20px;
+
+}
+.cta-text u{
+    padding-left: 10px;
+}
+.cta-text h4{
+text-transform: uppercase;
+color: #6c757d;
+margin-bottom: 20px;
+}
+.cta-text h2{
+    font-size: 53px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+.cta-boxes{
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.single-cta-box{
+    width: 50%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.single-cta-box h3{
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.cta-box-icon{
+    width: 60px;
+    height: 60px;
+background: #f4f9fc;
+padding: 14px;
+border-radius: 50%;
+margin-bottom: 15px;
+}
+.single-cta-box-inner{
+    box-shadow: 0 0 10px #0000001f;
+    border-radius: 20px;
+    padding: 40px;
+    background: #fff;
+}
+/* section-2  cta_aera closed */
+
+/* section 3 mid img text  strat*/
+.mid_text{
+    font-weight: 800;
+}
+.mid_header{
+    padding: 0;
+    margin: 0;
+}
+.mid-ul{
+  text-align: center;
+  margin-left: 20px;
+}
+.mid-ul h2{
+    font-size: 60px;
+    font-weight: 800;
+    color: #FFFFFF;
+    text-align: center;
+}
+.search_bar{
+    padding: 10px;
+}
+.sercg_btn{
+    border: 3px solid #BE123C;
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+   padding: 0px 10px;
+   margin-top: 15px;
+   font-size: 20px;
+   font-weight: 500;
+}
+.search_bar button{
+ font-size: 20px;
+ padding: 2px;
+ background-color: #BE123C;
+ color: #ffffff;
+ margin: 7px;
+ padding: 5px;
+ border-radius: 7%;
+}
+.mid-ul{
+    padding: 30px;
+    text-align: center;
+    margin-top: 65px;
+}
+ .mid-ul ul{
+    display: flex;
+    list-style: none;
+    margin-top: 200px;
+align-items: center;
+justify-content: center;
+
+ }
+.mid-ul ul a{
+margin: 5px;
+margin-top: 15px;
+border: 1px solid #ffffff;
+border-radius: 4px;
+padding: 8px 6px 8px 6px;
+margin: 35px;
+text-align: center;
+font-size: 18px;
+ }
+ 
+ .mid_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+ }
+ /*section-3 css strat */
+ .intro-video{
+   margin-top: 25px;
+   margin-bottom: 45px;
+   padding: 0;
+ }
+ .mid_img_video{
+    background-image: url(images/nevideo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1000px;
+    height: 500px;
+
+ }
+.container-intro-video{
+margin: 0 auto;
+padding: 0;
+max-width: 1000px;
+}
+.video_1{
+  width: 1000px;
+  height: 500px;
+    text-align: center;
+    padding: 5px;
+    border: 2px;
+    border-radius: 1px solid red;
+}
+/*section-3 css closed */
+/* footer_section strat */
+
+.buttom_section {
+        margin: 0 auto;
+        padding: 0;
+        max-width: 1200px;
+    }
+
+.mid-text{
+    max-width: 660px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: normal;
+    margin: 0 auto;
+    }
+    .stats-wrapper{
+        display: flex;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    }
+    .single-state-item{
+        flex: 1;
+        text-align: center;
+    }
+    .single-state-item h4{
+       font-size: 30px;
+       margin-bottom: 5px;
+    }

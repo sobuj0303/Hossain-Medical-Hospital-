@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1250px;
+    margin:0 auto;
+}
+.hera-area{
+    margin-top: 5px;
+}
+.header-drop{
+    border-bottom: 1px solid #ccc6c6c2;
+}
+.logo-area img{
+    width: 90px;
+    height: 50%;
+    background-color: #fff;
+}
+.header-wrapper{
+ display: flex;
+ justify-content: space-between;
+}
+
+.main_main ul{
+    display: flex;
+    list-style: none;
+}
+.main_main ul a{
+   font-size: 16px;
+   font-weight: 500;
+   margin: 15px 25px;
+}
+a{
+    text-decoration: none;
+}
+.main_main ul {
+    list-style: none;
+}
+.main_main ul button {
+  padding: 7px;
+  color: green;
+  background-color: lightgreen;
+  outline: 0;
+  border-radius: 1px solid green;
+  font-size: 16px;
+  font-weight: 442;
+}
+/* go button */
+.gohpmepages{
+}
+.button ul{
+    list-style: none;
+}
+.button ul li a{
+    position:fixed;
+}
+/* mid css strat */
+.mainlist h2{
+text-align: center;
+margin-top: 35px;
+line-height: 65px;
+letter-spacing: 1.5px;
+font-size: 50px;
+
+}
+.mainlist p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 540;
+    letter-spacing: 1.1px;
+}
+.text_button h2{
+    display: inline;
+    color: #454040;
+}
+.text_button{
+align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.text_button button{
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    background-color: aquamarine;
+   font-size: 20px;
+   color: rgb(65, 64, 59);
+   border: 2px solid green;
+   border-radius:8px;
+}
+/* mid css closed */
+.hero-area{
+    margin-top: 35px;
+}
+.hero-area-single-box,
+.hero-area-single-box2{
+    background-image: url(images/do40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+   background-color: #DBEAFE;
+}
+.hero-area-single-box,
+.hero-area-single-box2
+,.main-wrapper{
+    background-color: lightblue;
+   
+   
+}
+.hero-area-single-box,
+.hero-area-single-box2
+,.main-wrapper:hover{
+    opacity: 1; /* Make visible */
+    transform: scale(1); /* Scale to normal size */
+   
+}
+.borer{
+padding: 10px;
+}
+.hero-area-single-box{
+ position: relative;
+}
+.main-hero-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-wrapper{
+    position:relative;
+    width:400px;
+    background-color:#A78BFA;
+    display: flex;
+}
+.box-img img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    margin-left: 7px;
+    margin-bottom: 2px;
+}
+.single-text{
+    margin-top: 12px;
+}
+.box-img{
+    margin-top: 14px;
+}
+.single-text h1{
+    font-size: 20px;
+color: #fff;
+    margin-left: 11px;
+}
+.single-text p{
+  justify-content: space-between;
+color: rgb(72, 249, 255);
+  font-weight: 550;
+  font-size: 21px;
+  margin-left: 11px;
+}
+.single-text button{
+    width:130px ;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    border:1px solid #a3a0a0 ;
+    border-radius: 8px;
+margin-left: 173px;
+  opacity: 1s;
+color: rgb(122, 21, 75);
+}
+.single-text button:hover{
+background-color: rgb(67, 76, 138);
+color:rgb(1, 66, 53);
+transition: .5s;
+width: 140px;
+
+color: #ffffffe6;
+}
+/*
+.main-img-wrapper{
+  display: flex;
+}
+.main-wrapper{
+    display: flex;
+}
+.box-img img{
+    width: 150px;
+    height: 150px;
+}
+
+/* Doctro list strat 
+.main-continer{
+   margin-top: 65px;
+   margin-bottom: 70px;
+   background-color: #9f8e4a;
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+}
+.container-area{
+  
+}
+.single-img-div {
+    background-image: url(images/doctor5.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 600px;
+ height: 500px;
+}
+.main-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-div{
+    background-color: rgb(219, 205, 205);
+    margin-top: -5px;
+    width: 600px;
+    height: 110px;
+    
+}
+.single-img img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    margin-left: 7px;
+    margin-bottom: 2px;
+}
+.single-text{
+    margin-top: 12px;
+}
+.single-text h1{
+    font-size: 20px;
+    color: rgb(57, 55, 55);
+    margin-bottom: -2px;
+}
+.single-text p{
+  justify-content: space-between;
+  color:rgba(34, 77, 146, 0.944);
+  font-weight: 550;
+  font-size: 21px;
+}
+.single-text button{
+    width:130px ;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    border:1px solid #a3a0a0 ;
+    border-radius: 8px;
+  margin-left: 375px;
+  opacity: 1s;
+color: rgb(122, 21, 75);
+}
+.single-text button:hover{
+background-color: rgb(67, 76, 138);
+color:rgb(1, 66, 53);
+transition: .5s;
+width: 140px;
+height: 40px;
+color: #ffffffe6;
+}
+.container-wrapper{
+    display: flex;
+}
+/* Doctro list closed 
+  <div class="single-img-div">
+                                </div>
+                              <div class="main-div">
+                                    <div class="main-wrapper">
+                                        <div class="single-img">
+                                            <img src="images/217928.jpg" alt="">
+                                        </div>
+                                        <div class="single-text">
+                                            <h1>Md Sobuj Hossain</h1>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                            <button>ReadMore..</button>
+                                        </div>
+                                    </div>
+                              </div>
+//
+ <div class="single-text">
+                                                <h1>Md Sobuj Hossain</h1>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+                                                <button>ReadMore..</button>
+                                            </div>
+
+
+                                            //<div class="main-div">
+    <div class="main-wrapper">
+        <div class="box-img">
+            <img src="images/217928.jpg" alt="">
+        </div>
+        <div class="single-text">
+            <h1>Md Sobuj Hossain</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
+            <button>ReadMore..</button>
+        </div>
+    </div>
